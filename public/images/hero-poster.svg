@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="暗色科技感首屏背景占位图">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset="0.55" stop-color="#050708"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="47%" r="42%">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.085"/>
+      <stop offset="0.45" stop-color="#00f0ff" stop-opacity="0.018"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#00f0ff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="84" height="84" patternUnits="userSpaceOnUse">
+      <path d="M84 0H0V84" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#base)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <rect width="1920" height="1080" fill="url(#halo)"/>
+
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.055">
+    <circle cx="960" cy="540" r="260"/>
+    <circle cx="960" cy="540" r="420"/>
+    <circle cx="960" cy="540" r="610"/>
+    <path d="M0 780L960 400L1920 780"/>
+    <path d="M0 900L960 520L1920 900"/>
+    <path d="M0 1020L960 640L1920 1020"/>
+  </g>
+
+  <path d="M180 635H1740" stroke="url(#beam)" stroke-width="1"/>
+  <path d="M290 680H1630" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+  <path d="M960 110V970" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+
+  <g fill="#00f0ff">
+    <circle cx="960" cy="635" r="3" opacity="0.8"/>
+    <circle cx="476" cy="681" r="1.5" opacity="0.35"/>
+    <circle cx="1424" cy="427" r="1.5" opacity="0.35"/>
+    <circle cx="1480" cy="903" r="1.5" opacity="0.25"/>
+  </g>
+
+  <g fill="#ffffff" opacity="0.2">
+    <rect x="112" y="142" width="36" height="1"/>
+    <rect x="112" y="142" width="1" height="36"/>
+    <rect x="1772" y="878" width="36" height="1"/>
+    <rect x="1807" y="843" width="1" height="36"/>
+  </g>
+</svg>
