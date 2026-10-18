@@ -2,6 +2,11 @@
 
 基于 React、Vite、Tailwind CSS 和 Framer Motion 构建的暗黑风格个人作品集。
 
+## 在线地址
+
+- 网站：https://ding-guozheng-portfolio.vercel.app
+- 仓库：https://github.com/3525844657/ding-guozheng-portfolio
+
 ## 本地运行
 
 ```bash
